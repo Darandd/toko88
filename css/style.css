@@ -1,0 +1,367 @@
+/* Index */
+/* Scroll to Top */
+.scroll-to-top {
+  position: relative;
+}
+
+.btn-position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 5;
+}
+
+.btn-style {
+  background-color: #551b54;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 2s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.icon-style:hover {
+  animation: none;
+  background: #fff;
+  color: #551b54;
+  border: 2px solid #551b54;
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+.navbar-brand {
+  font-family: "Viga", sans-serif;
+  font-size: 2em;
+  color: #66e845 !important;
+}
+.nav-link:hover {
+  color: #f50707 !important;
+  transform: translateX(20px);
+}
+.navbar-brand:hover {
+  color: #249309 !important;
+  transform: scale(1.1);
+}
+
+/* Button */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 5em;
+  background-image: url(../img/bg-head-blur.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.jumbotron .display-4 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Raleway !important;
+  font-size: 55px;
+}
+
+.jumbotron span {
+  color: #4dfe21 !important;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 80%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+/* Info Panel */
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -80px;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+  padding: 30px;
+}
+
+.info-panel img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.info-panel h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.info-panel p {
+  font-size: 14px;
+}
+
+/* Shopspace */
+.shopspace img {
+  border-radius: 40px;
+}
+
+.shopspace {
+  margin-top: 420px;
+  text-align: center;
+}
+
+.shopspace h3 {
+  font-size: 30px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.shopspace span {
+  font-weight: 500;
+}
+
+.shopspace p {
+  color: #a09f9f;
+  font-weight: 200;
+  margin: 20px 0;
+}
+
+/* Testimonial */
+.testimonial {
+  margin-top: 90px;
+}
+
+.testimonial q {
+  font-size: 24px;
+  margin-bottom: 100px !important;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  font-weight: 200;
+  font-family: "Viga", sans-serif;
+}
+
+.testimonial q::before {
+  content: "\275D";
+  font-size: 40px;
+  color: #000000;
+  height: 0px;
+}
+
+.testimonial figure img {
+  padding: 5px;
+  width: 120px !important;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.testimonial h5 {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Raleway;
+}
+
+.testimonial p {
+  color: #acacac;
+  font-size: 12px;
+}
+
+/* footer */
+.footer {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.footer p {
+  color: #acacac;
+  font-size: 18px;
+}
+
+/* Akhir Index */
+
+/* Menu Contact */
+.container-content {
+  margin: 30px;
+  border-radius: 40px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  padding: 30px !important;
+}
+
+.container-maps {
+  margin: 30px;
+  border-radius: 40px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  padding: 20px 30px 90px 30px;
+  height: 900px;
+}
+
+.container-maps a {
+  text-decoration: none;
+  font-weight: 200;
+  color: #6c6b6b;
+  font-style: italic;
+  transition: ease-in 0.1s;
+}
+
+.container-maps a:hover {
+  text-decoration: none;
+  color: #ff2f00;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Maps API */
+.map {
+  height: 400px;
+  width: auto;
+  justify-content: center;
+}
+
+/* Akhir Menu Contact */
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  .nav-link {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar-brand {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #4dfe21;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .nav-link:hover,
+  .navbar-brand:hover {
+    color: #4dfe21 !important;
+    transform: scale(1.2);
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 500px;
+  }
+
+  .jumbotron .display-4 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Raleway !important;
+    font-size: 90px;
+  }
+
+  .shopspace {
+    margin-top: 220px;
+    text-align: left;
+  }
+
+  .shopspace h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+
+  .testimonial q {
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+  }
+
+  .testimonial q::before {
+    content: "\275D";
+    font-size: 80px;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+
+  .container-content {
+    margin: 50px 150px 50px 150px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    padding: 20px;
+  }
+
+  .container-contact {
+    margin: 20px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    padding: 20px;
+  }
+
+  .container-maps {
+    margin: 50px 150px 50px 150px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    padding: 20px 20px 100px 20px;
+  }
+
+  .map {
+    height: 500px;
+    width: auto;
+    justify-content: center;
+  }
+}
