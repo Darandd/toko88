@@ -222,19 +222,37 @@
 /* Akhir Index */
 
 /* Menu Contact */
+.bg-navbar {
+  background-color: #495c83;
+}
+
+.sect-form {
+  background-color: #495c83;
+  margin: 0px;
+  align-items: center;
+  padding: 100px 0 0 0;
+}
+
+.sect-maps {
+  background-color: #7a86b6;
+  margin: 0px;
+  padding: 100px 0 50px 0;
+}
+
+.sect-foot {
+  background-color: #7a86b6;
+}
+
 .container-content {
-  margin: 30px;
   border-radius: 40px;
   background: linear-gradient(145deg, #e6e6e6, #ffffff);
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   padding: 30px !important;
+  margin-left: 100px;
 }
 
 .container-maps {
-  margin: 30px;
   border-radius: 40px;
   background: linear-gradient(145deg, #e6e6e6, #ffffff);
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   padding: 20px 30px 90px 30px;
   height: 900px;
 }
@@ -257,11 +275,47 @@
 /* Maps API */
 .map {
   height: 400px;
-  width: auto;
-  justify-content: center;
 }
 
+svg {
+  width: 100% !important;
+}
+
+footer {
+  padding: 50px;
+  color: #ffffff;
+  font-size: 1.125rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
 /* Akhir Menu Contact */
+
+/* Login */
+.body-login {
+  background-image: linear-gradient(187deg, #f4fdb0 0%, #c2eb1f 48%, #4d9504 100%);
+}
+
+.field-icon {
+  float: right;
+  margin-top: -28px;
+  margin-right: 5px;
+  position: relative;
+  z-index: 2;
+}
+
+.login-back {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.login-back:hover {
+  color: #4dfe21;
+  transform: scale(1.2);
+}
+/* Akhir Login */
 
 /* Desktop Version */
 @media (min-width: 992px) {
@@ -335,33 +389,7 @@
     margin-bottom: 40px;
   }
 
-  .container-content {
-    margin: 50px 150px 50px 150px;
-    border-radius: 40px;
-    background: linear-gradient(145deg, #e6e6e6, #ffffff);
-    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-    padding: 20px;
-  }
-
-  .container-contact {
-    margin: 20px;
-    border-radius: 40px;
-    background: linear-gradient(145deg, #e6e6e6, #ffffff);
-    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-    padding: 20px;
-  }
-
-  .container-maps {
-    margin: 50px 150px 50px 150px;
-    border-radius: 40px;
-    background: linear-gradient(145deg, #e6e6e6, #ffffff);
-    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-    padding: 20px 20px 100px 20px;
-  }
-
   .map {
-    height: 500px;
-    width: auto;
-    justify-content: center;
+    height: 600px;
   }
 }
